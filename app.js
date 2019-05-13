@@ -15,7 +15,8 @@ function onReady(){
         var del = document.createElement("button");
         var delvalue = document.createTextNode("Delete");
         del.appendChild(delvalue);
-        del.setAttribute('class',"deleteThis");
+        del.setAttribute('class',"deleteThis mdl-button mdl-js-button mdl-button--raised mdl-button--accent");
+        del.setAttribute('id',"new2");
         //Set text of li to text box's text
         var value = document.createTextNode(newToDoText.value);
         //Add check box, delete button, and text to li
